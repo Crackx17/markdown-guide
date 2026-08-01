@@ -38,8 +38,8 @@ syntax:
   - id: footnotes
     available: n
   - id: heading-ids
-    available: p
-    notes: "Automatically generated from heading text. There's no way to set custom heading IDs."
+    available: y
+    notes: "Generated automatically from the heading text, and settable explicitly with a trailing `{#custom-id}` or a standalone `{#custom-id}` anchor."
   - id: definition-lists
     available: n
   - id: strikethrough
